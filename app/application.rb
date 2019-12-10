@@ -19,6 +19,7 @@ class Application
         resp.write "Your cart is empty"
       else
         @@cart.each do |list|
+          resp.write "#{list}\n"
       end
 
     else
