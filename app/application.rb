@@ -22,6 +22,7 @@ class Application
           resp.write "#{list}\n"
         end
       end
+      end
 
     else
       resp.write "Path Not Found"
