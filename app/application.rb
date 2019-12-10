@@ -20,6 +20,7 @@ class Application
       else
         @@cart.each do |list|
           resp.write "#{list}\n"
+        end
       end
 
     else
