@@ -18,7 +18,7 @@ class Application
       if @@cart.empty? == true
         resp.write "Your cart is empty"
       else
-
+        @@cart.each do |list|
       end
 
     else
